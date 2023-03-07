@@ -30,7 +30,7 @@ def init():
         if gcd(i,26) == 1:
             k_ls.append(i)
 if __name__=='__main__':
-    global   k_ls
+    global k_ls
     k_ls = []
     init()
     print('''
